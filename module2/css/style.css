@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Gill Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    width: 100%;
+    padding: 5px 20px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.item {
+    padding-top: 35px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    background-color: #999999;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px){
+    .col-md-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-6, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .col-xs-12 {
+        float: left;
+        width: 100%;
+    }
+
+    .item {
+        margin: 10px 20px;
+    }
+}
+
+.corner {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 40px;
+    box-sizing: inherit;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 2px;
+    font-size: 125%;
+}
+
+.corner.chicken {
+    background-color: #cc999a;
+}
+
+.corner.beef {
+    background-color: #b34d48;
+    color: white;
+}
+
+.corner.sushi {
+    background-color: #e1d29f;
+}
