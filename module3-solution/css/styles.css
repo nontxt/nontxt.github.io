@@ -1,7 +1,15 @@
-li > a {
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li{
     text-align: center;
 }
 
-.row > div {
-    background-color: #1b6d85;
+.content{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    background-color: lightgrey;
+    padding: 5px 20px;
 }
