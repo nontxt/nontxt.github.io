@@ -1,3 +1,7 @@
 li > a {
     text-align: center;
 }
+
+.row > div {
+    background-color: #1b6d85;
+}
